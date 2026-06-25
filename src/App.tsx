@@ -63,7 +63,7 @@ function buildDates(year: number, monthIndex: number, days: number) {
 const june2026 = buildDates(2026, 5, 30);
 
 const ptCurrent = [4, 4, 5, 6, 5, 5, 5, 4, 4, 5, 4, 5, 4, 5, 5, 4, 4, 4, 5, 5, 5, 5, 4, 4, 4, 5, 4, 5, 5, 5];
-const ftCurrent = [9, 8, 9, 9, 7, 8, 8, 8, 8, 7, 7, 8, 7, 8, 8, 9, 9, 9, 7, 8, 8, 9, 8, 9, 8, 8, 8, 8, 9, 9];
+const ftCurrent = [9, 8, 9, 9, 7, 8, 8, 8, 8, 7, 7, 8, 7, 8, 8, 9, 9, 9, 7, 8, 8, 9, 8, 9, 12, 8, 8, 8, 9, 9];
 
 const ptTarget = [7, 7, 7, 7, 8, 8, 8, 7, 7, 7, 7, 7, 8, 8, 8, 7, 7, 7, 7, 7, 8, 8, 8, 7, 7, 7, 7, 8, 8, 8];
 const ftTarget = Array.from({ length: 30 }, () => 15);
